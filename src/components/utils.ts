@@ -252,6 +252,7 @@ export const getBestHand = (
   console.log(c3);
   console.log(c4);
   console.log(c5);
+  return c1;
   // const c3 = [allCards[0], ...allCards.slice(3, 7)];
   // const c4 = allCards.slice(1, 6);
   // const c5 = allCards.slice(2, 7);

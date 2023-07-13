@@ -16,6 +16,7 @@ const PokerCards = ({ spread, cards }: Props) => {
             facedown={card.facedown}
             symbol={card.symbol}
             suit={card.suit}
+            value={card.value}
             rotation={90 * (i / length) - 25}
             translate={-360 * (i / length) + 80}
           />

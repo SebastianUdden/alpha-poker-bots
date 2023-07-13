@@ -18,7 +18,7 @@ interface Props {
   players: PlayerProps[];
 }
 const PlayArea = ({ players }: Props) => {
-  const [besthand, setBesthand] = useState("");
+  const [besthand, setBesthand] = useState<any>();
   const [shuffledCards, setShuffledCards] = useState<CardProps[]>([]);
   const [bets, setBets] = useState(players.map(() => 0));
   const [communityCards, setCommunityCards] = useState<CardProps[]>([]);
